@@ -1,0 +1,25 @@
+Access the Redux Store Outside a React Component - https://daveceddia.com/access-redux-store-outside-react/
+
+Example: error handling with async/await in React or React Thunk
+https://redux.js.org/usage/writing-logic-thunks
+function fetchData(someValue) {
+  return async (dispatch, getState) => {
+    dispatch(requestStarted())
+
+    // Have to declare the response variable outside the try block
+    let response
+
+    try {
+      response = await myAjaxLib.post('/someEndpoint', { data: someValue })
+    } catch (error) {
+      // Ensure we only catch network errors
+      dispatch(requestFailed(error.message))
+      // Bail out early on failure
+      return
+    }
+
+    // We now have the result and there's no error. Dispatch "fulfilled".
+    dispatch(requestSucceeded(response.data))
+  }
+}
+
