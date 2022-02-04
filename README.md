@@ -1,5 +1,8 @@
 # system-design-react-code-examples
-A curation of code examples to solve the common frontend system design issues in React.
+A curation of code examples and in depth technical implementation approaches to solve the common frontend system design issues in React.
+
+“Talk is cheap. Show me the code.”
+— Linus Torvalds
 
 
 - [Engineering Design](#engineering-design)
