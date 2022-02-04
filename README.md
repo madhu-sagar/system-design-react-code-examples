@@ -1,9 +1,15 @@
 # system-design-react-code-examples
 A curation of code examples and in depth technical implementation approaches to solve the common frontend system design issues in React.
 
+---
+### Target Audience 
+1) intermediate developers wishing to get better technical understanding 
+2) developers exploring how to do handle technical things in their own projects 
+
 “Talk is cheap. Show me the code.”
 — Linus Torvalds
 
+---
 
 - [Engineering Design](#engineering-design)
 - [High Level Design](#high-level-design)
