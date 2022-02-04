@@ -30,6 +30,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [2](https://www.alibabacloud.com/blog/front-end-performance-optimization-with-accelerated-compositing-part-2_594195?spm=a2c65.11461447.0.0.5c88790bSaSVAr)
 - [React Philosophies](https://github.com/mithi/react-philosophies)
 - [idiomatic.js](https://github.com/rwaldron/idiomatic.js)
+- [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 
 ---
 
