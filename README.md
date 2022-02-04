@@ -13,7 +13,7 @@ A curation of code examples and in depth technical implementation approaches to 
 
 ### Architecture Deep dive
 
-- Rebuilding our tech stack for the new Facebook.com(https://engineering.fb.com/2020/05/08/web/facebook-redesign/)
+- Rebuilding our tech stack for the new Facebook.com (https://engineering.fb.com/2020/05/08/web/facebook-redesign/)
 
 ---
 
