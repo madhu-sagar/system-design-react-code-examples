@@ -28,6 +28,8 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [1](https://www.alibabacloud.com/blog/front-end-performance-optimization-with-accelerated-compositing-part-1_594194)
 - [SSR-based Optimization of Double 11 Virtual Venue – A More Complex Rendering Architecture](https://www.alibabacloud.com/blog/ssr-based-optimization-of-double-11-virtual-venue-a-more-complex-rendering-architecture_596970?spm=a2c65.11461447.0.0.5c88790bSaSVAr)
 - [2](https://www.alibabacloud.com/blog/front-end-performance-optimization-with-accelerated-compositing-part-2_594195?spm=a2c65.11461447.0.0.5c88790bSaSVAr)
+- [React Philosophies](https://github.com/mithi/react-philosophies)
+- [idiomatic.js](https://github.com/rwaldron/idiomatic.js)
 
 ---
 
@@ -234,6 +236,10 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - How to maintain state through the application?
 - How to manage users' data?
 - State management Libraries (Redux, Flux, NgRX)
+-   * Redux Architecture
+       * [Scalable Redux architecture for React Projects with Redux-Saga and Typescript](https://itnext.io/scalable-redux-architecture-for-react-projects-with-redux-saga-and-typescript-f6afe1dece9b)
+       * [10 Tips for Better Redux Architecture](https://medium.com/javascript-scene/10-tips-for-better-redux-architecture-69250425af44)
+       * [React/Redux: pitfalls and best practices](https://tech.bedrockstreaming.com/react-redux-pitfalls-and-best-pratices/)
     * Redux-saga
         * Example Codebase
     * RxJS
@@ -299,6 +305,8 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Smooth Operations (Loading indicators / Light/Smooth/Meaningful animations (to avoid jerks in transitions) / Splash screens) - (dialog with light animations)
 - Animation directions should be the same (dialog coming from bottom should close in bottom) - (smooth animation should be added in sidebars for better UX)
 - Animation between data fetching(APIs request)
+    * Skeletal loaders( [Example](https://www.npmjs.com/package/react-loading-skeleton))
+    * [Using blurhash](https://github.com/woltapp/blurhash)
 - Discuss about Caching - ex: API, resource cache (Browser cache / Memory / CDN / Disk Cache)
 - Pagination vs Infinite Scroll
   * [Implementing pagination](https://dev.to/potouridisio/the-only-pagination-you-ll-ever-need-1-2-3-4-5-4il5)
