@@ -25,6 +25,9 @@ The philosophy behind this endeavour is to document as much as possible a practi
 ### Architecture Deep dive
 
 - [Rebuilding our tech stack for the new Facebook.com](https://engineering.fb.com/2020/05/08/web/facebook-redesign/)
+- [1](https://www.alibabacloud.com/blog/front-end-performance-optimization-with-accelerated-compositing-part-1_594194)
+- [SSR-based Optimization of Double 11 Virtual Venue – A More Complex Rendering Architecture](https://www.alibabacloud.com/blog/ssr-based-optimization-of-double-11-virtual-venue-a-more-complex-rendering-architecture_596970?spm=a2c65.11461447.0.0.5c88790bSaSVAr)
+- [2](https://www.alibabacloud.com/blog/front-end-performance-optimization-with-accelerated-compositing-part-2_594195?spm=a2c65.11461447.0.0.5c88790bSaSVAr)
 
 ---
 
@@ -158,6 +161,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Progressive Web Applications
     - Provides offline support and native like functionality.
 - Server Side Rendering
+    * SSR (https://survivejs.com/webpack/output/server-side-rendering/)
     - Better SEO
 - Important points to discuss:
     - Are users on mobile?
@@ -229,6 +233,10 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - How to maintain state through the application?
 - How to manage users' data?
 - State management Libraries (Redux, Flux, NgRX)
+    * Redux-saga
+        * Example Codebase
+    * RxJS
+    * Redux Thunk
 
 <br>
 
@@ -239,13 +247,20 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - GraphQL
 - Caching GET APIs (Middleware concepts to cache response)
 - Server-Sent Events (SSE)
+- Gracefult handling 
+- Error Handling
+    * error handling with async/await pattern - [See the section Async Logic and Side Effects](https://redux.js.org/usage/writing-logic-thunks#async-logic-and-side-effects)
+- Others
+    * [Handle API calls using async await with the useEffect hook](https://javascript.plainenglish.io/handling-api-calls-using-async-await-in-useeffect-hook-990fb4ae423 )
+    * [How to use async function in React hooks useEffect](https://javascript.plainenglish.io/how-to-use-async-function-in-react-hook-useeffect-typescript-js-6204a788a435)
 
 <br>
 
 **Optimizing Images**
 - Add alt attributes (Images should be descriptive for SEO)
 - Load images based on screen size (img srcset)
-- Image compression (ex: JPEG 2000)
+- Image compression (ex: JPEG 2000) 
+    * [Webpack guide](https://lawrencewhiteside.com/courses/webpack-beyond-the-basics/optimizing-asset-files-with-compression/)
 - Image sitemaps
 - Use SVGs for generic dimensions (in case of stretching of images)
 - Discuss about image Sprites for icons
@@ -279,13 +294,20 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Web Vitals (FP, LCP, CLS, etc)
 - Lighthouse / PageSpeed Insights
 - Fast Loading (Initial load should be fast)
+    * [List of things to consider for fast load times](https://web.dev/fast/)
 - Smooth Operations (Loading indicators / Light/Smooth/Meaningful animations (to avoid jerks in transitions) / Splash screens) - (dialog with light animations)
 - Animation directions should be the same (dialog coming from bottom should close in bottom) - (smooth animation should be added in sidebars for better UX)
 - Animation between data fetching(APIs request)
 - Discuss about Caching - ex: API, resource cache (Browser cache / Memory / CDN / Disk Cache)
 - Pagination vs Infinite Scroll
+  * [Implementing pagination](https://dev.to/potouridisio/the-only-pagination-you-ll-ever-need-1-2-3-4-5-4il5)
+  * 
 - Meaningful animation
 - Micro interactions
+- React specific issues
+    * Fixing Wasterd Rendering, Caching expensive operation results, Reducing bundle sizes, Lazy loading components - [video](https://www.pluralsight.com/courses/optimize-performance-react) [code](https://github.com/hendrikswan/pluralsight-react-performance)
+    * Checking Extra Renders - [code](https://github.com/Lemoncode/react-hooks-by-example/tree/master/18-why-did-you-update)
+    * [Optimizing React Performance - 12 Tools and Tips](https://www.keycdn.com/blog/react-performance)
 
 <br>
 
@@ -305,6 +327,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Alt attributes
 - Aria-labels
 - Multi-device support, slow network speed
+ * [Adaptive Loading](https://addyosmani.com/blog/adaptive-loading/) - [Code](https://github.com/GoogleChromeLabs/adaptive-loading)
 - Color contrast, semantics tags
 
 <br>
