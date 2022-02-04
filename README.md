@@ -4,10 +4,15 @@ A curation of code examples and in depth technical implementation approaches to 
 ---
 ### Target Audience 
 1) intermediate developers wishing to get better technical understanding 
-2) developers exploring how to do handle technical things in their own projects 
+2) developers exploring how to do handle technical things in their own projects.
 
-“Talk is cheap. Show me the code.”
-— Linus Torvalds
+---
+### Philosophy
+
+The philosophy behind this endeavour is to document as much as possible a practical guide as possible someone looking to level-up fast/ implement things. 
+
+> “Talk is cheap. Show me the code.”
+> — Linus Torvalds
 
 ---
 
@@ -268,6 +273,9 @@ A curation of code examples and in depth technical implementation approaches to 
 
 **Performance Optimization Techniques**
 - Webpack to optimized/compressed pages (Code splitting)
+     * [Code splitting](https://hackernoon.com/effective-code-splitting-in-react-a-practical-guide-2195359d5d49)
+     * [Gzip Compression](https://www.keycdn.com/support/enable-gzip-compression)
+     * [Brotli Compression](https://www.fastfwd.com/improve-http-compression-with-brotli/)
 - Web Vitals (FP, LCP, CLS, etc)
 - Lighthouse / PageSpeed Insights
 - Fast Loading (Initial load should be fast)
@@ -308,6 +316,12 @@ A curation of code examples and in depth technical implementation approaches to 
 - Clickjacking
 - Content Security Policy (CSP)
 - CORS
+- SSL Testing 
+    * Deep analysis of the configuration of any SSL web server on the public Internet -[Testing your SSL web server](https://www.ssllabs.com/ssltest/analyze.html)
+- Security Headers  
+     * Analyzing HTTP response headers for sanity(https://securityheaders.com) - [Example of good report](https://securityheaders.com/?q=https%3A%2F%2Fgodje.nl%2F)
+
+ - 
 
 <br>
 
@@ -329,6 +343,7 @@ A curation of code examples and in depth technical implementation approaches to 
 - Controlling the workflows and protecting the assets
 - UX Design -> Developers -> Product Managers -> UX Designing -> QA
 - Code level governance - like PRs approval (sets standard in your team)
+    * [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 - Artifacts/Assets level governance (before go live)
 - like Product Manager approval, Stakeholders approvals
 
