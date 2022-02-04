@@ -224,6 +224,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Component wise deployment cycle (CI/CD)
 - Monolith vs Microservice architecture
 - Micro Frontend (independent dev & deployment for scalability)
+ * Topcoder Platform Microfront Earn App - [code](https://github.com/topcoder-platform/micro-frontends-earn-app/tree/responsive)
 - Static components vs Dynamic components 
 - IFrame/Shell approach
 
