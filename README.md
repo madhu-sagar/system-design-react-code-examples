@@ -5,6 +5,7 @@ A curation of code examples and in depth technical implementation approaches to 
 ### Target Audience 
 1) intermediate developers wishing to get better technical understanding 
 2) developers exploring how to do handle technical things in their own projects.
+3) for my own reference as I need something like this for my own learning.
 
 ---
 ### Philosophy
