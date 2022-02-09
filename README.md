@@ -210,10 +210,13 @@ The philosophy behind this endeavour is to document as much as possible a practi
 
 **Volume of Operations**
 - Discuss about the end users of the product
+   * Observe the data in something like Google Analytics for split by device/location/OS etc in production later.
 - Identify QPS (Queries per second)
+   * Monitor throughput of the web server/ web application server - [benchmark for reference](https://www.techempower.com/benchmarks/#section=data-r20&hw=ph&test=fortune)
 - Discuss about Load testing/Stress testing
     * Use something like [Locust](https://locust.io/)/[boomer](https://github.com/myzhan/boomer)
 - Inject analytics in application (ex: Google analytics, Sentry, NewRelic)
+   * For cost-effectiveness instead of using ready-made solution, can define our events, using Kafka to stream the events to a backend server and use a Grafana dashboard if required.
 - Analytics data helps us to scale the system
 
 <br>
