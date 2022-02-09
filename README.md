@@ -74,22 +74,25 @@ The philosophy behind this endeavour is to document as much as possible a practi
 ### Low Level Design
 
 - Code/Folder architecture
-    * [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)
+    * [Example - #2 in this blogpost](https://javascript.plainenglish.io/7-steps-to-modernize-and-optimize-your-react-app-466cbea51b8f)
 - Desktop/Mobile first approach
 - System breakdown
+   * [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)  
 - Component Design
 - Form development
 - Storage management
+   * Using localForage (https://github.com/localForage/localForage)
+   * redux-persist - [code](https://github.com/Th3Wall/react-crwn-cothing-ecom) 
 - API Design
 - Instrumentation
 - Design system
 - Routing management
-- CSS optimizations
-- Lazy loading of modules
+- [CSS optimizations](https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS)
+- [Lazy loading of modules](https://web.dev/fast/#lazy-load-images-and-video)
 - Accessibility
-- Image optimizations
+- [Image optimizations](https://web.dev/fast/#optimize-your-images)
 - Pagination, [Debouncing, Throttling](https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf)
-- Performance: FCP, LCP, TTI, CLS
+- [Performance](https://developer.mozilla.org/en-US/docs/Web/Performance): FCP, LCP, TTI, CLS
 - Versioning
 - Unit testing
 
