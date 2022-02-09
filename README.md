@@ -218,15 +218,15 @@ The philosophy behind this endeavour is to document as much as possible a practi
 **[SEO (Search Engine Optimization)](https://github.com/marcobiedermann/search-engine-optimization)**
 - Crawling
 - Use of Heading tags
-- Semantic tags
+- Semantic tags - [Example](https://github.com/joelhooks/joelhooks-com/blob/main/src/components/SEO.js)
 - Site Ranking
 - Sitemap
-- Meta Keywords
+- Meta Keywords - [Example](https://github.com/slaterbbx/borrellis.bakery/blob/7bf72923972f274a0dec69cb9fc59fbec1f3d576/src/components/seo.js#L13)
 - Organic approach vs Inorganic approach
 - Use of alt tags
 - 301 Redirects (bad for SEO)
-- Robots.txt
-- Open graph protocol (https://ogp.me/) for social graph
+- Robots.txt - [Example](https://github.com/peterpeterparker/tietracker/blob/main/public/robots.txt)
+- Open graph protocol (https://ogp.me/) for social graph - [Example](https://github.com/gabroun/malikgabroun/blob/master/src/components/Seo.js)
 
 <br>
 
@@ -253,6 +253,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
         * Example Codebase -[react-crwn-cothing-ecom](https://github.com/Th3Wall/react-crwn-cothing-ecom)
     * RxJS
         * [Example recipes](https://www.learnrxjs.io/learn-rxjs/recipes)
+        * [Basic example using redux-observable](https://github.com/simonhorlick/react-redux-observable-example)
     * Redux Thunk
 
 <br>
@@ -311,6 +312,10 @@ The philosophy behind this endeavour is to document as much as possible a practi
      * [Code splitting](https://hackernoon.com/effective-code-splitting-in-react-a-practical-guide-2195359d5d49)
      * [Gzip Compression](https://www.keycdn.com/support/enable-gzip-compression)
      * [Brotli Compression](https://www.fastfwd.com/improve-http-compression-with-brotli/)
+    
+- Using Web workers
+   * [React and Web Workers](https://levelup.gitconnected.com/react-and-web-workers-c9b60b4b6ae8))
+   * Example - [code](https://github.com/peterpeterparker/tietracker/tree/main/public/workers)
 - Web Vitals (FP, LCP, CLS, etc)
 - Lighthouse / PageSpeed Insights
 - Fast Loading (Initial load should be fast)
@@ -361,7 +366,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Alt attributes
 - Aria-labels - [example code](https://github.com/JasonTarka/a11y-examples)
 - Multi-device support, slow network speed
- * [Adaptive Loading](https://addyosmani.com/blog/adaptive-loading/) - [Code](https://github.com/GoogleChromeLabs/adaptive-loading)
+   * [Adaptive Loading](https://addyosmani.com/blog/adaptive-loading/) - [Code](https://github.com/GoogleChromeLabs/adaptive-loading)
 - Color contrast, semantics tags
 
 <br>
