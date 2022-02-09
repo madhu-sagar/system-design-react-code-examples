@@ -233,6 +233,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 **Component Based Design**
 - Component wise deployment cycle (CI/CD)
 - Monolith vs Microservice architecture
+   * Microservice example - [live](https://kachkaev.ru/) - [code](https://gitlab.com/kachkaev/website-frontend/)
 - Micro Frontend (independent dev & deployment for scalability)
     * Topcoder Platform Microfront Earn App - [code](https://github.com/topcoder-platform/micro-frontends-earn-app/tree/responsive)
 - Static components vs Dynamic components 
@@ -321,8 +322,11 @@ The philosophy behind this endeavour is to document as much as possible a practi
     
 - Animation directions should be the same (dialog coming from bottom should close in bottom) - (smooth animation should be added in sidebars for better UX)
     * Example using react-spring - [code](https://codesandbox.io/embed/morr206pv8)
+    * [How To Implement Smooth Scrolling in React](https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react)
 - Animation between data fetching(APIs request)
-    * Skeletal loaders( [Example](https://www.npmjs.com/package/react-loading-skeleton))
+    * Skeletal loaders 
+         * Example](https://www.npmjs.com/package/react-loading-skeleton) 
+         * Example - [Live](https://fakeflix.th3wall.codes/) -  [code](https://github.com/Th3Wall/Fakeflix)
     * [Using blurhash](https://github.com/woltapp/blurhash)
 - Discuss about Caching - ex: API, resource cache (Browser cache / Memory / CDN / Disk Cache)
     * [Guide](https://roadmap.sh/guides/http-caching)
