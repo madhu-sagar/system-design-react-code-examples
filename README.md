@@ -26,9 +26,9 @@ The philosophy behind this endeavour is to document as much as possible a practi
 ### Architecture Deep dive
 
 - [Rebuilding our tech stack for the new Facebook.com](https://engineering.fb.com/2020/05/08/web/facebook-redesign/)
-- [1](https://www.alibabacloud.com/blog/front-end-performance-optimization-with-accelerated-compositing-part-1_594194)
+- [Front-End Performance Optimization with Accelerated Compositing Part 1 ](https://www.alibabacloud.com/blog/front-end-performance-optimization-with-accelerated-compositing-part-1_594194)
+- [Front-End Performance Optimization with Accelerated Compositing Part 2 ](https://www.alibabacloud.com/blog/front-end-performance-optimization-with-accelerated-compositing-part-2_594195)
 - [SSR-based Optimization of Double 11 Virtual Venue – A More Complex Rendering Architecture](https://www.alibabacloud.com/blog/ssr-based-optimization-of-double-11-virtual-venue-a-more-complex-rendering-architecture_596970?spm=a2c65.11461447.0.0.5c88790bSaSVAr)
-- [2](https://www.alibabacloud.com/blog/front-end-performance-optimization-with-accelerated-compositing-part-2_594195?spm=a2c65.11461447.0.0.5c88790bSaSVAr)
 - [React Philosophies](https://github.com/mithi/react-philosophies)
 - [idiomatic.js](https://github.com/rwaldron/idiomatic.js)
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
@@ -252,6 +252,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 **Handling APIs**
 - Polling (Short and Long)
 - Web Sockets (Real-time) (ex: chat, shared editors)
+    * Displaying live orderbook using websocket - [code](https://github.com/fibo/order-book)
 - Batch requests
 - GraphQL
 - Caching GET APIs (Middleware concepts to cache response)
@@ -274,6 +275,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Use SVGs for generic dimensions (in case of stretching of images)
 - Discuss about image Sprites for icons
 - Discuss about progressive images (ex: Medium.com)
+    * [Using blurhash](https://github.com/woltapp/blurhash)
 
 <br>
 
@@ -283,6 +285,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Error logging (for tracing)
 - Debugging
 - Logs/Track all events happened in the application
+    
 - Implement Analytics (GA)
 - Sentry (to capture errors)
 - Newrelic (to detect failures)
