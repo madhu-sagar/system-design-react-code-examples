@@ -243,7 +243,9 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [Micro Frontend (independent dev & deployment for scalability)](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
     * Topcoder Platform Microfront Earn App - [code](https://github.com/topcoder-platform/micro-frontends-earn-app/tree/responsive)
 - Static components vs Dynamic components 
-- IFrame/Shell approach - [AppShell approach](https://github.com/GoogleChromeLabs/sw-precache/tree/master/app-shell-demo)
+- IFrame/Shell approach 
+   * [AppShell approach](https://github.com/GoogleChromeLabs/sw-precache/tree/master/app-shell-demo)
+   * [IFrame approach](https://blog.bitsrc.io/best-practices-in-using-iframes-with-react-6193feaa1e08)
 
 <br>
 
