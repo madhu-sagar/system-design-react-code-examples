@@ -184,8 +184,8 @@ The philosophy behind this endeavour is to document as much as possible a practi
     - Any Pricing model? (optional) - Subscriptions based, Paid APIs 
     - Will my app be Frontend heavy? (or backend heavy)
     - Do I have resources for this skill?
-    - Is your application Canvas (or SVG) heavy? (Figma, Draw.io)
-    - Is your application webRTC heavy? (Video streaming)
+    - Is your application Canvas (or SVG) heavy? (Figma, Draw.io) - [example](https://github.com/rrag/react-stockcharts-examples2)
+    - Is your application webRTC heavy? (Video streaming) -[example](https://github.com/OpenVidu/openvidu-call-react)
 
 <br>
 
