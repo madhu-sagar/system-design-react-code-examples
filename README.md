@@ -64,7 +64,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Server Side Architecture
 - Security
 - State Management
-- Internationalization
+- Internationalization - [example](https://pgjones.dev/tozo/frontend/i18n/)
 - E2E testing
 - Tools Integration
 - Authentication & Authorization
@@ -80,7 +80,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Desktop/Mobile first approach
 - System breakdown
    * [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)  
-- Component Design
+- [Component Design](https://overreacted.io/writing-resilient-components/#writing-resilient-components)
 - Form development
 - Storage management
    * Using localForage (https://github.com/localForage/localForage)
@@ -468,6 +468,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 * spotify-clone-client - (https://github.com/JL978/spotify-clone-client)
 * The Front-End Checklist - (https://github.com/thedaviddias/Front-End-Checklist)
 * Engineering Best Practices - Many sections serve as a good reference - (https://10up.github.io/Engineering-Best-Practices/)
+* Zero to production web apps - [code](https://pgjones.dev/tozo/frontend/aims/)
 
 ### License
 
