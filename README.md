@@ -366,12 +366,16 @@ The philosophy behind this endeavour is to document as much as possible a practi
 -   * Example - [code](https://gitlab.com/kachkaev/website/-/blob/master/package.json)
 - Linters / Static Analyzers
 - Unit testing
-    * Example - [blog](https://www.richardkotze.com/coding/mocking-react-hooks-unit-testing-jest) - code(https://github.com/rkotze/starwars-react-app-tests)
-    * 
+    * Mocking React Hooks - Example - [blog](https://www.richardkotze.com/coding/mocking-react-hooks-unit-testing-jest) - code(https://github.com/rkotze/starwars-react-app-tests)
+    * React Hooks Testing Library - https://github.com/testing-library/react-hooks-testing-library
+    * React Testing Library example - [code](https://fullstackopen.com/en/part5/testing_react_apps)
+    * Code accompanying "Testing React with Jest and Testing Library" course on Udemy - [Code](https://github.com/bonnie/udemy-TESTING-LIBRARY)
 - Workflow testing (User level flows) (Tools - Cypress)   
     * Cypress has a demo real world app that uses best practices - [code](https://github.com/cypress-io/cypress-realworld-app)
 - Integration testing
-- Automation suite
+    * e2e integration test using Mocha and Pupppeteer - [code](https://github.com/anishkny/realworld-e2e-test)
+- Automation Suite
+
 - Cross browsers testing
     * Cypress demo app - [code](https://github.com/cypress-io/cypress-realworld-app/blob/develop/bitbucket-pipelines.yml)
 - Cross platform testing
