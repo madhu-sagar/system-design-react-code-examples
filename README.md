@@ -96,7 +96,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [Image optimizations](https://web.dev/fast/#optimize-your-images)
 - [Pagination](https://dev.to/potouridisio/the-only-pagination-you-ll-ever-need-1-2-3-4-5-4il5), [Debouncing, Throttling](https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf)
 - [Performance](https://developer.mozilla.org/en-US/docs/Web/Performance): FCP, LCP, TTI, CLS
-- Versioning
+- [Versioning](https://github.com/pirelenito/git-revision-webpack-plugin#plugin-api)
 - Unit testing
 
 ---
