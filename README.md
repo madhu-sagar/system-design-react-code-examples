@@ -309,8 +309,12 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Lighthouse / PageSpeed Insights
 - Fast Loading (Initial load should be fast)
     * [List of things to consider for fast load times](https://web.dev/fast/)
+    
 - Smooth Operations (Loading indicators / Light/Smooth/Meaningful animations (to avoid jerks in transitions) / Splash screens) - (dialog with light animations)
+    * Example using react-spring - [code](https://codesandbox.io/embed/7mqy09jyq)
+    
 - Animation directions should be the same (dialog coming from bottom should close in bottom) - (smooth animation should be added in sidebars for better UX)
+    * Example using react-spring - [code](https://codesandbox.io/embed/morr206pv8)
 - Animation between data fetching(APIs request)
     * Skeletal loaders( [Example](https://www.npmjs.com/package/react-loading-skeleton))
     * [Using blurhash](https://github.com/woltapp/blurhash)
