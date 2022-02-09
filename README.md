@@ -69,7 +69,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Tools Integration
 - Authentication & Authorization
 - Quality Assurance & Control
-- User role management
+- User role management - [example](https://github.com/atulmy/crate/tree/master/code/web/src/modules/auth)
 
 ---
 
@@ -293,12 +293,12 @@ The philosophy behind this endeavour is to document as much as possible a practi
 
 **Instrumentation**
 - Measurement and tracking are key for a stable system
-- Monitoring
+- Monitoring - [code](https://github.com/philipwalton/blog/tree/main/functions/log) 
 - Error logging (for tracing)
 - Debugging
 - Logs/Track all events happened in the application - [code]
     
-- Implement Analytics (GA) - [code](https://github.com/philipwalton/blog/tree/main/functions/log) 
+- Implement Analytics (GA) - [this](https://github.com/elgorditosalsero/react-gtm-hook) 
 - Sentry (to capture errors) - example - [code](https://github.com/AjayPoshak/blubus/blob/master/client/index.js)
 - Newrelic (to detect failures) - [doc](https://docs.newrelic.com/docs/browser/browser-monitoring/installation/install-browser-monitoring-agent) 
 
