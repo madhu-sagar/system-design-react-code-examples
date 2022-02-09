@@ -90,7 +90,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Instrumentation
 - Design system
 - Routing management
-- [CSS optimizations](https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS)
+- [CSS optimizations](https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS) - [Code-splitting](https://lihautan.com/css-code-splitting/)
 - [Lazy loading of modules](https://web.dev/fast/#lazy-load-images-and-video)
 - [Accessibility](https://www.w3.org/WAI/tips/developing/)
 - [Image optimizations](https://web.dev/fast/#optimize-your-images)
