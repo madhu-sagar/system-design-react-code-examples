@@ -89,7 +89,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Routing management
 - [CSS optimizations](https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS)
 - [Lazy loading of modules](https://web.dev/fast/#lazy-load-images-and-video)
-- Accessibility
+- [Accessibility](https://www.w3.org/WAI/tips/developing/)
 - [Image optimizations](https://web.dev/fast/#optimize-your-images)
 - Pagination, [Debouncing, Throttling](https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf)
 - [Performance](https://developer.mozilla.org/en-US/docs/Web/Performance): FCP, LCP, TTI, CLS
@@ -355,7 +355,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 
  **Accessibility**
 - Alt attributes
-- Aria-labels
+- Aria-labels - [example code](https://github.com/JasonTarka/a11y-examples)
 - Multi-device support, slow network speed
  * [Adaptive Loading](https://addyosmani.com/blog/adaptive-loading/) - [Code](https://github.com/GoogleChromeLabs/adaptive-loading)
 - Color contrast, semantics tags
@@ -367,14 +367,19 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [XSS](https://auth0.com/blog/cross-site-scripting-xss/)
 - CSRF
 - Clickjacking
-- Content Security Policy (CSP)
+- [Content Security Policy (CSP)](https://www.pluralsight.com/courses/defeating-cross-site-scripting-content-security-policy)
 - CORS
 - SSL Testing 
     * Deep analysis of the configuration of any SSL web server on the public Internet -[Testing your SSL web server](https://www.ssllabs.com/ssltest/analyze.html)
 - Security Headers  
      * Analyzing HTTP response headers for sanity(https://securityheaders.com) - [Example of good report](https://securityheaders.com/?q=https%3A%2F%2Fgodje.nl%2F)
 
- - 
+ - Other Tools
+   * [HTTP/2 test](https://tools.keycdn.com/http2-test)
+   * [HTTP Header Checker](https://tools.keycdn.com/curl)
+   * [Website Speed Test](https://tools.keycdn.com/speed)
+   * [Performance Test](https://tools.keycdn.com/performance)
+   * [Check Font type](https://type-scale.com/)
 
 <br>
 
@@ -407,9 +412,10 @@ The philosophy behind this endeavour is to document as much as possible a practi
 
 - Cross browsers testing
     * Cypress demo app - [code](https://github.com/cypress-io/cypress-realworld-app/blob/develop/bitbucket-pipelines.yml)
+    * [Here is how you detect the browser using both JavaScript and CSS](https://medium.com/weekly-webtips/here-is-how-you-detect-the-browser-in-use-in-both-javascript-and-css-bcb5a6458379)
 - Cross platform testing
     * Cypress demo app - [code](https://github.com/cypress-io/cypress-realworld-app/blob/develop/bitbucket-pipelines.yml)
-
+   
 <br>
 
 **Governance**
