@@ -363,13 +363,19 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Stable products are successful
 - Specify standards - Code level / Artifacts level / Asset level
 - Git Hooks (pre commit hooks, husky)
+-   * Example - [code](https://gitlab.com/kachkaev/website/-/blob/master/package.json)
 - Linters / Static Analyzers
 - Unit testing
-- Workflow testing (User level flows) (Tools - Cypress)
+    * Example - [blog](https://www.richardkotze.com/coding/mocking-react-hooks-unit-testing-jest) - code(https://github.com/rkotze/starwars-react-app-tests)
+    * 
+- Workflow testing (User level flows) (Tools - Cypress)   
+    * Cypress has a demo real world app that uses best practices - [code](https://github.com/cypress-io/cypress-realworld-app)
 - Integration testing
 - Automation suite
 - Cross browsers testing
+    * Cypress demo app - [code](https://github.com/cypress-io/cypress-realworld-app/blob/develop/bitbucket-pipelines.yml)
 - Cross platform testing
+    * Cypress demo app - [code](https://github.com/cypress-io/cypress-realworld-app/blob/develop/bitbucket-pipelines.yml)
 
 <br>
 
@@ -390,6 +396,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 
 **NFR (Non Functional Requirement)**
 - Discuss about CI/CD (Docker, Pipeline)
+-   * Alexander Kachkaev's personal website has a good pipeline setup - see [code](https://gitlab.com/kachkaev/website)
 <br>
 
 ---
