@@ -94,7 +94,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [Lazy loading of modules](https://web.dev/fast/#lazy-load-images-and-video)
 - [Accessibility](https://www.w3.org/WAI/tips/developing/)
 - [Image optimizations](https://web.dev/fast/#optimize-your-images)
-- Pagination, [Debouncing, Throttling](https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf)
+- [Pagination](https://dev.to/potouridisio/the-only-pagination-you-ll-ever-need-1-2-3-4-5-4il5), [Debouncing, Throttling](https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf)
 - [Performance](https://developer.mozilla.org/en-US/docs/Web/Performance): FCP, LCP, TTI, CLS
 - Versioning
 - Unit testing
@@ -339,8 +339,8 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Discuss about Caching - ex: API, resource cache (Browser cache / Memory / CDN / Disk Cache)
     * [Guide](https://roadmap.sh/guides/http-caching)
 - Pagination vs Infinite Scroll
-  * [Implementing pagination](https://dev.to/potouridisio/the-only-pagination-you-ll-ever-need-1-2-3-4-5-4il5)
-  * 
+    * [Implementing pagination](https://www.pluralsight.com/courses/react-managing-large-data-sets)
+    * [Implementing infinite scroll](https://www.pluralsight.com/courses/react-managing-large-data-sets)
 - Meaningful animation
     * Fakeflix - [example](https://fakeflix.th3wall.codes/) - [code](https://github.com/Th3Wall/Fakeflix)
     * Using framer motion - [live](https://ecom-crwn-clothing.herokuapp.com/)- [code](https://github.com/Th3Wall/react-crwn-cothing-ecom)
