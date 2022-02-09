@@ -324,7 +324,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Using Web workers
    * [React and Web Workers](https://levelup.gitconnected.com/react-and-web-workers-c9b60b4b6ae8))
    * Example - [code](https://github.com/peterpeterparker/tietracker/tree/main/public/workers)
-- [Web Vitals (FP, LCP, CLS, etc)]((https://10up.github.io/Engineering-Best-Practices/performance/#core-web-vitals))
+- [Web Vitals (FP, LCP, CLS, etc)](https://10up.github.io/Engineering-Best-Practices/performance/#core-web-vitals)
 - Lighthouse / PageSpeed Insights - [website having 100 score](https://github.com/philipwalton/blog)
 - Fast Loading (Initial load should be fast)
     * [List of things to consider for fast load times](https://web.dev/fast/)
