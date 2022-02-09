@@ -55,11 +55,11 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Platform identification
 - SPA vs MPA
 - SSR, SSG, CSR
-- Tech stack
+- [Tech stack](https://10up.github.io/Engineering-Best-Practices/react/)
 - Search Engine Optimization
 - CI/CD
 - User Experience
-- A/B testing
+- [A/B testing](https://philipwalton.com/articles/performant-a-b-testing-with-cloudflare-workers/)
 - MVP planning
 - Server Side Architecture
 - Security
@@ -237,10 +237,10 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Component wise deployment cycle (CI/CD)
 - Monolith vs Microservice architecture
    * Microservice example - [live](https://kachkaev.ru/) - [code](https://gitlab.com/kachkaev/website-frontend/)
-- Micro Frontend (independent dev & deployment for scalability)
+- [Micro Frontend (independent dev & deployment for scalability)](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
     * Topcoder Platform Microfront Earn App - [code](https://github.com/topcoder-platform/micro-frontends-earn-app/tree/responsive)
 - Static components vs Dynamic components 
-- IFrame/Shell approach
+- IFrame/Shell approach - [AppShell approach](https://github.com/GoogleChromeLabs/sw-precache/tree/master/app-shell-demo)
 
 <br>
 
@@ -296,9 +296,9 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Monitoring
 - Error logging (for tracing)
 - Debugging
-- Logs/Track all events happened in the application
+- Logs/Track all events happened in the application - [code]
     
-- Implement Analytics (GA) - code - 
+- Implement Analytics (GA) - [code](https://github.com/philipwalton/blog/tree/main/functions/log) 
 - Sentry (to capture errors) - example - [code](https://github.com/AjayPoshak/blubus/blob/master/client/index.js)
 - Newrelic (to detect failures) - [doc](https://docs.newrelic.com/docs/browser/browser-monitoring/installation/install-browser-monitoring-agent) 
 
@@ -370,7 +370,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Aria-labels - [example code](https://github.com/JasonTarka/a11y-examples)
 - Multi-device support, slow network speed
    * [Adaptive Loading](https://addyosmani.com/blog/adaptive-loading/) - [Code](https://github.com/GoogleChromeLabs/adaptive-loading)
-- Color contrast, semantics tags
+- Color contrast, semantics tags - [See this](https://10up.github.io/Engineering-Best-Practices/tools/#a11y-testing)
 
 <br>
 
@@ -378,6 +378,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - MITM
 - [XSS](https://auth0.com/blog/cross-site-scripting-xss/)
 - CSRF
+   * [Content-Security-Policy in Express apps](https://ponyfoo.com/articles/content-security-policy-in-express-apps#to-get-started-let-s-use-report-only )
 - Clickjacking
 - [Content Security Policy (CSP)](https://www.pluralsight.com/courses/defeating-cross-site-scripting-content-security-policy)
 - CORS
@@ -385,6 +386,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     * Deep analysis of the configuration of any SSL web server on the public Internet -[Testing your SSL web server](https://www.ssllabs.com/ssltest/analyze.html)
 - Security Headers  
      * Analyzing HTTP response headers for sanity(https://securityheaders.com) - [Example of good report](https://securityheaders.com/?q=https%3A%2F%2Fgodje.nl%2F)
+     * badssl - https://badssl.com/
 
  - Other Tools
    * [HTTP/2 test](https://tools.keycdn.com/http2-test)
@@ -392,6 +394,10 @@ The philosophy behind this endeavour is to document as much as possible a practi
    * [Website Speed Test](https://tools.keycdn.com/speed)
    * [Performance Test](https://tools.keycdn.com/performance)
    * [Check Font type](https://type-scale.com/)
+   * [What Does My Site Cost?](https://whatdoesmysitecost.com/)
+   * [HTML5 Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html)
+   * [Production Best Practices: Security](https://expressjs.com/en/advanced/best-practice-security.html)
+   * [Web Application Vulnerabilities Index](https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/)
 
 <br>
 
@@ -453,7 +459,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 
 ---
 
-### Codebases 
+### Codebases + Guides Worth Mentioning Here
 * Artsy.net - (https://github.com/artsy/force/)
 * thenewboston - (https://github.com/thenewboston-developers/Website)
 * fakeflix - (https://github.com/Th3Wall/Fakeflix)
@@ -461,6 +467,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 * algorithm-visualizer - (https://github.com/algorithm-visualizer/algorithm-visualizer)
 * spotify-clone-client - (https://github.com/JL978/spotify-clone-client)
 * The Front-End Checklist - (https://github.com/thedaviddias/Front-End-Checklist)
+* Engineering Best Practices - Many sections serve as a good reference - (https://10up.github.io/Engineering-Best-Practices/)
 
 ### License
 
