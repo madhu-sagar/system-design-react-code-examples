@@ -366,14 +366,21 @@ The philosophy behind this endeavour is to document as much as possible a practi
 **Quality assurance and control**
 - Stable products are successful
 - Specify standards - Code level / Artifacts level / Asset level
+    * Code level - Git
+    * Artifacts level - Artifactory
+    * Asset level - Git/ Blob storage(S3 etc)/CDN 
 - Git Hooks (pre commit hooks, husky)
 -   * Example - [code](https://gitlab.com/kachkaev/website/-/blob/master/package.json)
+-   * Example - [code](https://github.com/philipwalton/blog/blob/main/.husky/pre-commit)
 - Linters / Static Analyzers
+    * Example - [code](https://github.com/philipwalton/blog/blob/main/.eslintrc)
+    * 
 - Unit testing
     * Mocking React Hooks - Example - [blog](https://www.richardkotze.com/coding/mocking-react-hooks-unit-testing-jest) - code(https://github.com/rkotze/starwars-react-app-tests)
     * React Hooks Testing Library - https://github.com/testing-library/react-hooks-testing-library
     * React Testing Library example - [code](https://fullstackopen.com/en/part5/testing_react_apps)
     * Code accompanying "Testing React with Jest and Testing Library" course on Udemy - [Code](https://github.com/bonnie/udemy-TESTING-LIBRARY)
+    * React Jest example - [code](https://github.com/securingsincity/react-jest-example)
 - Workflow testing (User level flows) (Tools - Cypress)   
     * Cypress has a demo real world app that uses best practices - [code](https://github.com/cypress-io/cypress-realworld-app)
 - Integration testing
