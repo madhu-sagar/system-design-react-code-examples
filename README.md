@@ -164,8 +164,9 @@ The philosophy behind this endeavour is to document as much as possible a practi
     - Reloading of a page at every page navigation.
 - Progressive Web Applications
     - Provides offline support and native like functionality.
+    - [Examples of PWA](https://github.com/hemanth/awesome-pwa)
 - Server Side Rendering
-    * SSR (https://survivejs.com/webpack/output/server-side-rendering/)
+    * [SSR](https://survivejs.com/webpack/output/server-side-rendering/)
     - Better SEO
 - Important points to discuss:
     - Are users on mobile?
@@ -244,7 +245,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
        * [10 Tips for Better Redux Architecture](https://medium.com/javascript-scene/10-tips-for-better-redux-architecture-69250425af44)
        * [React/Redux: pitfalls and best practices](https://tech.bedrockstreaming.com/react-redux-pitfalls-and-best-pratices/)
     * Redux-saga
-        * Example Codebase
+        * Example Codebase -[react-crwn-cothing-ecom](https://github.com/Th3Wall/react-crwn-cothing-ecom)
     * RxJS
     * Redux Thunk
 
@@ -318,7 +319,9 @@ The philosophy behind this endeavour is to document as much as possible a practi
   * [Implementing pagination](https://dev.to/potouridisio/the-only-pagination-you-ll-ever-need-1-2-3-4-5-4il5)
   * 
 - Meaningful animation
-- Micro interactions
+    * Fakeflix - [example](https://fakeflix.th3wall.codes/) - [code](https://github.com/Th3Wall/Fakeflix)
+    * Using framer motion - [live](https://ecom-crwn-clothing.herokuapp.com/)- [code](https://github.com/Th3Wall/react-crwn-cothing-ecom)
+- [Micro interactions](https://userguiding.com/blog/microinteraction/)
 - React specific issues
     * Fixing Wasterd Rendering, Caching expensive operation results, Reducing bundle sizes, Lazy loading components - [video](https://www.pluralsight.com/courses/optimize-performance-react) [code](https://github.com/hendrikswan/pluralsight-react-performance)
     * Checking Extra Renders - [code](https://github.com/Lemoncode/react-hooks-by-example/tree/master/18-why-did-you-update)
@@ -374,13 +377,15 @@ The philosophy behind this endeavour is to document as much as possible a practi
 -   * Example - [code](https://github.com/philipwalton/blog/blob/main/.husky/pre-commit)
 - Linters / Static Analyzers
     * Example - [code](https://github.com/philipwalton/blog/blob/main/.eslintrc)
-    * 
+    * Example - [code](https://github.com/thenewboston-developers/Website/blob/development/.eslintrc.json)
 - Unit testing
     * Mocking React Hooks - Example - [blog](https://www.richardkotze.com/coding/mocking-react-hooks-unit-testing-jest) - code(https://github.com/rkotze/starwars-react-app-tests)
     * React Hooks Testing Library - https://github.com/testing-library/react-hooks-testing-library
     * React Testing Library example - [code](https://fullstackopen.com/en/part5/testing_react_apps)
     * Code accompanying "Testing React with Jest and Testing Library" course on Udemy - [Code](https://github.com/bonnie/udemy-TESTING-LIBRARY)
+    * Testing Library - thenewboston website - live(https://github.com/thenewboston-developers/Website) - [code](https://github.com/thenewboston-developers/Website)
     * React Jest example - [code](https://github.com/securingsincity/react-jest-example)
+    * Async testing - [code](https://codesandbox.io/s/react-ts-unit-test-example-kmubx?file=/src/hooks/useStepper/useStepper.test.tsx)
 - Workflow testing (User level flows) (Tools - Cypress)   
     * Cypress has a demo real world app that uses best practices - [code](https://github.com/cypress-io/cypress-realworld-app)
 - Integration testing
