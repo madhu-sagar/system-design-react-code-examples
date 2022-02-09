@@ -409,6 +409,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     * Async testing - [code](https://codesandbox.io/s/react-ts-unit-test-example-kmubx?file=/src/hooks/useStepper/useStepper.test.tsx)
 - Workflow testing (User level flows) (Tools - Cypress)   
     * Cypress has a demo real world app that uses best practices - [code](https://github.com/cypress-io/cypress-realworld-app)
+    * Artsy.net - [code](https://github.com/artsy/force/tree/main/cypress)
 - Integration testing
     * e2e integration test using Mocha and Pupppeteer - [code](https://github.com/anishkny/realworld-e2e-test)
 - Automation Suite
@@ -443,6 +444,14 @@ The philosophy behind this endeavour is to document as much as possible a practi
 <br>
 
 ---
+
+### Codebases 
+* Artsy.net - (https://github.com/artsy/force/)
+* thenewboston - (https://github.com/thenewboston-developers/Website)
+* fakeflix - (https://github.com/Th3Wall/Fakeflix)
+* CRWN Clothing - (https://github.com/Th3Wall/react-crwn-cothing-ecom)
+* algorithm-visualizer - (https://github.com/algorithm-visualizer/algorithm-visualizer)
+* spotify-clone-client - (https://github.com/JL978/spotify-clone-client)
 
 ### License
 
