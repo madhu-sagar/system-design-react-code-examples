@@ -74,6 +74,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 ### Low Level Design
 
 - Code/Folder architecture
+    * [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)
 - Desktop/Mobile first approach
 - System breakdown
 - Component Design
@@ -247,6 +248,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     * Redux-saga
         * Example Codebase -[react-crwn-cothing-ecom](https://github.com/Th3Wall/react-crwn-cothing-ecom)
     * RxJS
+        * [Example recipes](https://www.learnrxjs.io/learn-rxjs/recipes)
     * Redux Thunk
 
 <br>
@@ -320,6 +322,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     * Skeletal loaders( [Example](https://www.npmjs.com/package/react-loading-skeleton))
     * [Using blurhash](https://github.com/woltapp/blurhash)
 - Discuss about Caching - ex: API, resource cache (Browser cache / Memory / CDN / Disk Cache)
+    * [Guide](https://roadmap.sh/guides/http-caching)
 - Pagination vs Infinite Scroll
   * [Implementing pagination](https://dev.to/potouridisio/the-only-pagination-you-ll-ever-need-1-2-3-4-5-4il5)
   * 
