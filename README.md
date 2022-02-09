@@ -87,7 +87,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Lazy loading of modules
 - Accessibility
 - Image optimizations
-- Pagination, Debouncing, Throttling
+- Pagination, [Debouncing, Throttling](https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf)
 - Performance: FCP, LCP, TTI, CLS
 - Versioning
 - Unit testing
@@ -211,7 +211,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 
 <br>
 
-**SEO (Search Engine Optimization)**
+**[SEO (Search Engine Optimization)](https://github.com/marcobiedermann/search-engine-optimization)**
 - Crawling
 - Use of Heading tags
 - Semantic tags
@@ -257,7 +257,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     * Displaying live orderbook using websocket - [code](https://github.com/fibo/order-book)
 - Batch requests
 - GraphQL
-- Caching GET APIs (Middleware concepts to cache response)
+- Caching GET APIs (Middleware concepts to cache response) - [guide](https://roadmap.sh/guides/http-caching)
 - Server-Sent Events (SSE)
 - Gracefult handling 
 - Error Handling
@@ -288,9 +288,9 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Debugging
 - Logs/Track all events happened in the application
     
-- Implement Analytics (GA)
-- Sentry (to capture errors)
-- Newrelic (to detect failures)
+- Implement Analytics (GA) - code - 
+- Sentry (to capture errors) - example - [code](https://github.com/AjayPoshak/blubus/blob/master/client/index.js)
+- Newrelic (to detect failures) - [doc](https://docs.newrelic.com/docs/browser/browser-monitoring/installation/install-browser-monitoring-agent) 
 
 <br>
 
@@ -312,6 +312,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     
 - Smooth Operations (Loading indicators / Light/Smooth/Meaningful animations (to avoid jerks in transitions) / Splash screens) - (dialog with light animations)
     * Example using react-spring - [code](https://codesandbox.io/embed/7mqy09jyq)
+    * [Going jank free - Achieving 60 FPS smooth websites](https://murtada.nl/blog/going-jank-free-achieving-60-fps-smooth-websites)
     
 - Animation directions should be the same (dialog coming from bottom should close in bottom) - (smooth animation should be added in sidebars for better UX)
     * Example using react-spring - [code](https://codesandbox.io/embed/morr206pv8)
@@ -330,6 +331,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     * Fixing Wasterd Rendering, Caching expensive operation results, Reducing bundle sizes, Lazy loading components - [video](https://www.pluralsight.com/courses/optimize-performance-react) [code](https://github.com/hendrikswan/pluralsight-react-performance)
     * Checking Extra Renders - [code](https://github.com/Lemoncode/react-hooks-by-example/tree/master/18-why-did-you-update)
     * [Optimizing React Performance - 12 Tools and Tips](https://www.keycdn.com/blog/react-performance)
+    * [Render Performance Optimization With React](https://weareadaptive.com/2020/04/09/render-performance-optimization-react/)
 
 <br>
 
@@ -356,7 +358,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 
 **Security**
 - MITM
-- XSS
+- [XSS](https://auth0.com/blog/cross-site-scripting-xss/)
 - CSRF
 - Clickjacking
 - Content Security Policy (CSP)
