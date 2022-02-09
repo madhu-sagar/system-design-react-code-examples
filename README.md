@@ -84,6 +84,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
    * Using localForage (https://github.com/localForage/localForage)
    * redux-persist - [code](https://github.com/Th3Wall/react-crwn-cothing-ecom) 
 - API Design
+   * Example pattern- [code](https://github.com/oldboyxx/jira_clone/blob/master/client/src/shared/utils/api.js)
 - Instrumentation
 - Design system
 - Routing management
@@ -218,7 +219,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 **[SEO (Search Engine Optimization)](https://github.com/marcobiedermann/search-engine-optimization)**
 - Crawling
 - Use of Heading tags
-- Semantic tags - [Example](https://github.com/joelhooks/joelhooks-com/blob/main/src/components/SEO.js)
+- Semantic tags - [HTML Reference](https://htmlreference.io/) - [Example](https://github.com/joelhooks/joelhooks-com/blob/main/src/components/SEO.js)
 - Site Ranking
 - Sitemap
 - Meta Keywords - [Example](https://github.com/slaterbbx/borrellis.bakery/blob/7bf72923972f274a0dec69cb9fc59fbec1f3d576/src/components/seo.js#L13)
@@ -457,6 +458,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 * CRWN Clothing - (https://github.com/Th3Wall/react-crwn-cothing-ecom)
 * algorithm-visualizer - (https://github.com/algorithm-visualizer/algorithm-visualizer)
 * spotify-clone-client - (https://github.com/JL978/spotify-clone-client)
+* The Front-End Checklist - (https://github.com/thedaviddias/Front-End-Checklist)
 
 ### License
 
