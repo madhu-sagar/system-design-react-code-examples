@@ -386,6 +386,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Integration testing
     * e2e integration test using Mocha and Pupppeteer - [code](https://github.com/anishkny/realworld-e2e-test)
 - Automation Suite
+    * Using webdriver IO that allows using sauce,browserstack etc - [code](https://github.com/philipwalton/blog/blob/main/wdio.conf.cjs)
 
 - Cross browsers testing
     * Cypress demo app - [code](https://github.com/cypress-io/cypress-realworld-app/blob/develop/bitbucket-pipelines.yml)
