@@ -204,6 +204,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Discuss about the end users of the product
 - Identify QPS (Queries per second)
 - Discuss about Load testing/Stress testing
+    * Use something like [Locust](https://locust.io/)/[boomer](https://github.com/myzhan/boomer)
 - Inject analytics in application (ex: Google analytics, Sentry, NewRelic)
 - Analytics data helps us to scale the system
 
