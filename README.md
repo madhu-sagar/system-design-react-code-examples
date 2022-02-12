@@ -454,8 +454,9 @@ The philosophy behind this endeavour is to document as much as possible a practi
 <br>
 
 **Experiment based release cycle**
-- Experiment flag, which can help in the release cycle 
-  (Example : In a recent codebase I worked, we had a flag in the frontend codebase that was enabled/disabled based on the response received from API(in turn , API routes in node.js server were handled in 2 ways : 1) the server code read the values based on the server configuration(ENV values) for that particular deployment 2)actual backend that had its configuration as well) affecting the user experience and user journey.
+- Experiment flag, which can help in the release cycle
+ 
+  Example : In a recent codebase I worked, we had a flag in the frontend codebase that was enabled/disabled based on the response received from API(in turn , API routes in node.js server were handled in 2 ways : 1) the server code read the values based on the server configuration(ENV values) for that particular deployment 2)actual backend that had its configuration as well) affecting the user experience and user journey.
 
 <br>
 
@@ -486,7 +487,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 * [Boilerplate and tooling for web application development based on React (ReactJS), Redux, Babel, Webpack, CSS Modules, PostCSS, Browsersync, React Hot Loader and optimized for CDN hosting in Firebase](https://github.com/koistya/react-static-boilerplate)
 * [Universal React Starter](https://github.com/rkotze/universal-react-starter)
 * [New York Times kyt based starterkit](https://github.com/nytimes/kyt)
-* [Create React App - Simple Redux Typescript Boilerplate](https://github.com/hammondan/react-redux-typesript-boilerplate
+* [Create React App - Simple Redux Typescript Boilerplate](https://github.com/hammondan/react-redux-typesript-boilerplate)
 * [Create React App - react redux redux-saga ant-design tailwind-css boilerplate](https://github.com/dospolov-archive/react-redux-saga-antd-tailwind-boilerplate)
 
 ### License
