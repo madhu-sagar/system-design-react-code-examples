@@ -424,7 +424,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     * React Hooks Testing Library - https://github.com/testing-library/react-hooks-testing-library
     * React Testing Library example - [code](https://fullstackopen.com/en/part5/testing_react_apps)
     * Code accompanying "Testing React with Jest and Testing Library" course on Udemy - [Code](https://github.com/bonnie/udemy-TESTING-LIBRARY)
-    * Testing Library - thenewboston website - live(https://github.com/thenewboston-developers/Website) - [code](https://github.com/thenewboston-developers/Website)
+    * Testing Library - thenewboston website - [live](https://github.com/thenewboston-developers/Website) - [code](https://github.com/thenewboston-developers/Website)
     * React Jest example - [code](https://github.com/securingsincity/react-jest-example)
     * Async testing - [code](https://codesandbox.io/s/react-ts-unit-test-example-kmubx?file=/src/hooks/useStepper/useStepper.test.tsx)
 - Workflow testing (User level flows) (Tools - Cypress)   
@@ -438,6 +438,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Cross browsers testing
     * Cypress demo app - [code](https://github.com/cypress-io/cypress-realworld-app/blob/develop/bitbucket-pipelines.yml)
     * [Here is how you detect the browser using both JavaScript and CSS](https://medium.com/weekly-webtips/here-is-how-you-detect-the-browser-in-use-in-both-javascript-and-css-bcb5a6458379)
+    * [Automated cross browser unit testing](https://github.com/philipwalton/blog/blob/main/articles/learning-how-to-set-up-automated-cross-browser-javascript-unit-testing.md)
 - Cross platform testing
     * Cypress demo app - [code](https://github.com/cypress-io/cypress-realworld-app/blob/develop/bitbucket-pipelines.yml)
    
