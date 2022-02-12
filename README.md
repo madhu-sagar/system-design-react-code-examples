@@ -299,10 +299,10 @@ The philosophy behind this endeavour is to document as much as possible a practi
 
 **Instrumentation**
 
-- Measurement and tracking are key for a stable system
+- Measurement and tracking are key for a stable system 
 - Monitoring - [code](https://github.com/philipwalton/blog/tree/main/functions/log) 
-- Error logging (for tracing)
-- Debugging
+- Error logging (for tracing)] - [Using Google Analytics](https://github.com/philipwalton/blog/blob/main/articles/the-ga-setup-i-use-on-every-site-i-build.md#error-tracking)
+- Debugging - [Custom Tracking](https://github.com/philipwalton/blog/blob/main/articles/the-ga-setup-i-use-on-every-site-i-build.md#tracking-custom-data)
 - Logs/Track all events happened in the application - [code]
 - Implement Analytics (GA) - [this](https://github.com/elgorditosalsero/react-gtm-hook) 
 - Sentry (to capture errors) - example - [code](https://github.com/AjayPoshak/blubus/blob/master/client/index.js)
