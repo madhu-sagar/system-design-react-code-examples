@@ -363,7 +363,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Numeric, date and time formats
 - Singular &  Plurals
 - Use of currency
-- Keyboard usage
+- Keyboard usage - [example](https://codesandbox.io/s/8x6kzj7zmj)
 - Symbols, icons and colors
 - Text and graphics vary with different languages and religions, may be subject to misinterpretation or viewed as insensitive
 - Varying legal requirements
