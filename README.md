@@ -274,7 +274,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Batch requests
 - GraphQL
 - Caching GET APIs (Middleware concepts to cache response) - [guide](https://roadmap.sh/guides/http-caching)
-- Server-Sent Events (SSE)
+- Server-Sent Events (SSE) - [guide](https://germano.dev/sse-websockets/)
 - Graceful handling(eg. X number of retries before giving up(linear, exponential backoff etc) 
 - Error Handling
     * error handling with async/await pattern - [See the section Async Logic and Side Effects](https://redux.js.org/usage/writing-logic-thunks#async-logic-and-side-effects)
@@ -303,7 +303,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Monitoring - [code](https://github.com/philipwalton/blog/tree/main/functions/log) 
 - Error logging (for tracing)] - [Using Google Analytics](https://github.com/philipwalton/blog/blob/main/articles/the-ga-setup-i-use-on-every-site-i-build.md#error-tracking)
 - Debugging - [Custom Tracking](https://github.com/philipwalton/blog/blob/main/articles/the-ga-setup-i-use-on-every-site-i-build.md#tracking-custom-data)
-- Logs/Track all events happened in the application - [code]
+- Logs/Track all events happened in the application - [code]()
 - Implement Analytics (GA) - [this](https://github.com/elgorditosalsero/react-gtm-hook) 
 - Sentry (to capture errors) - example - [code](https://github.com/AjayPoshak/blubus/blob/master/client/index.js)
 - Newrelic (to detect failures) - [doc](https://docs.newrelic.com/docs/browser/browser-monitoring/installation/install-browser-monitoring-agent) 
@@ -323,7 +323,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
      * [Brotli Compression](https://www.fastfwd.com/improve-http-compression-with-brotli/)
     
 - Using Web workers
-   * [React and Web Workers](https://levelup.gitconnected.com/react-and-web-workers-c9b60b4b6ae8))
+   * [React and Web Workers](https://levelup.gitconnected.com/react-and-web-workers-c9b60b4b6ae8)
    * Example - [code](https://github.com/peterpeterparker/tietracker/tree/main/public/workers)
 - [Web Vitals (FP, LCP, CLS, etc)](https://10up.github.io/Engineering-Best-Practices/performance/#core-web-vitals)
 - Lighthouse / PageSpeed Insights - [website having 100 score](https://github.com/philipwalton/blog)
@@ -339,7 +339,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     * [How To Implement Smooth Scrolling in React](https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react)
 - Animation between data fetching(APIs request)
     * Skeletal loaders 
-         * Example](https://www.npmjs.com/package/react-loading-skeleton) 
+         * [Example](https://www.npmjs.com/package/react-loading-skeleton) 
          * Example - [Live](https://fakeflix.th3wall.codes/) -  [code](https://github.com/Th3Wall/Fakeflix)
     * [Using blurhash](https://github.com/woltapp/blurhash)
 - Discuss about Caching - ex: API, resource cache (Browser cache / Memory / CDN / Disk Cache)
@@ -420,7 +420,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     * Example - [code](https://github.com/philipwalton/blog/blob/main/.eslintrc)
     * Example - [code](https://github.com/thenewboston-developers/Website/blob/development/.eslintrc.json)
 - Unit testing
-    * Mocking React Hooks - Example - [blog](https://www.richardkotze.com/coding/mocking-react-hooks-unit-testing-jest) - code(https://github.com/rkotze/starwars-react-app-tests)
+    * Mocking React Hooks - Example - [blog](https://www.richardkotze.com/coding/mocking-react-hooks-unit-testing-jest) - [code](https://github.com/rkotze/starwars-react-app-tests)
     * React Hooks Testing Library - https://github.com/testing-library/react-hooks-testing-library
     * React Testing Library example - [code](https://fullstackopen.com/en/part5/testing_react_apps)
     * Code accompanying "Testing React with Jest and Testing Library" course on Udemy - [Code](https://github.com/bonnie/udemy-TESTING-LIBRARY)
@@ -463,7 +463,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 
 **NFR (Non Functional Requirement)**
 - Discuss about CI/CD (Docker, Pipeline)
--   * Alexander Kachkaev's personal website has a good pipeline setup - see [code](https://gitlab.com/kachkaev/website)
+   * Alexander Kachkaev's personal website has a good pipeline setup - see [code](https://gitlab.com/kachkaev/website)
 <br>
 
 ---
