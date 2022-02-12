@@ -262,6 +262,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     * RxJS
         * [Example recipes](https://www.learnrxjs.io/learn-rxjs/recipes)
         * [Basic example using redux-observable](https://github.com/simonhorlick/react-redux-observable-example)
+        * [Better example](https://github.com/mitsuruog/react-redux-observable-typescript-sample)
     * Redux Thunk
 
 <br>
@@ -274,7 +275,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - GraphQL
 - Caching GET APIs (Middleware concepts to cache response) - [guide](https://roadmap.sh/guides/http-caching)
 - Server-Sent Events (SSE)
-- Gracefult handling 
+- Graceful handling(eg. X number of retries before giving up(linear, exponential backoff etc) 
 - Error Handling
     * error handling with async/await pattern - [See the section Async Logic and Side Effects](https://redux.js.org/usage/writing-logic-thunks#async-logic-and-side-effects)
 - Others
@@ -453,7 +454,8 @@ The philosophy behind this endeavour is to document as much as possible a practi
 <br>
 
 **Experiment based release cycle**
-- Experiment flag, which can help in the release cycle
+- Experiment flag, which can help in the release cycle 
+  (Example : In a recent codebase I worked, we had a flag in the frontend codebase that was enabled/disabled based on the response received from API(in turn , API routes in node.js server were handled in 2 ways : 1) the server code read the values based on the server configuration(ENV values) for that particular deployment 2)actual backend that had its configuration as well) affecting the user experience and user journey.
 
 <br>
 
@@ -474,6 +476,18 @@ The philosophy behind this endeavour is to document as much as possible a practi
 * The Front-End Checklist - (https://github.com/thedaviddias/Front-End-Checklist)
 * Engineering Best Practices - Many sections serve as a good reference - (https://10up.github.io/Engineering-Best-Practices/)
 * Zero to production web apps - [code](https://pgjones.dev/tozo/frontend/aims/)
+
+### Boilerplate Code
+* [Setup with Node.js web application server acting as a Backend for Frontend](https://github.com/react-boilerplate/react-boilerplate)
+* [Next.js setup](https://github.com/UnlyEd/next-right-now)
+* [React, Redux, Redux-saga,Styled components boilerplate](https://github.com/gilbarbara/react-redux-saga-boilerplate)
+* [SSR boilerplate](https://github.com/cullenjett/react-ssr-boilerplate/)
+* [Boilerplate (seed) project for creating web apps with React.js, GraphQL.js and Relay](https://github.com/kriasoft/react-firebase-starter)
+* [Boilerplate and tooling for web application development based on React (ReactJS), Redux, Babel, Webpack, CSS Modules, PostCSS, Browsersync, React Hot Loader and optimized for CDN hosting in Firebase](https://github.com/koistya/react-static-boilerplate)
+* [Universal React Starter](https://github.com/rkotze/universal-react-starter)
+* [New York Times kyt based starterkit](https://github.com/nytimes/kyt)
+* [Create React App - Simple Redux Typescript Boilerplate](https://github.com/hammondan/react-redux-typesript-boilerplate
+* [Create React App - react redux redux-saga ant-design tailwind-css boilerplate](https://github.com/dospolov-archive/react-redux-saga-antd-tailwind-boilerplate)
 
 ### License
 
