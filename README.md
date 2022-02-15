@@ -83,7 +83,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [Component Design](https://overreacted.io/writing-resilient-components/#writing-resilient-components)
 - Form development
 - Storage management
-   * Using localForage (https://github.com/localForage/localForage)
+   * Using [localForage](https://github.com/localForage/localForage)
    * redux-persist - [code](https://github.com/Th3Wall/react-crwn-cothing-ecom) 
 - API Design
    * Example pattern- [code](https://github.com/oldboyxx/jira_clone/blob/master/client/src/shared/utils/api.js)
@@ -96,7 +96,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [Image optimizations](https://web.dev/fast/#optimize-your-images)
 - [Pagination](https://dev.to/potouridisio/the-only-pagination-you-ll-ever-need-1-2-3-4-5-4il5), [Debouncing, Throttling](https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf)
 - [Performance](https://developer.mozilla.org/en-US/docs/Web/Performance): FCP, LCP, TTI, CLS
-- [Versioning] -[example](https://github.com/pirelenito/git-revision-webpack-plugin#plugin-api) - [code](https://github.com/danielcaldas/el-conversor/blob/master/app/webpack.config.js)
+- Versioning - [example](https://github.com/pirelenito/git-revision-webpack-plugin#plugin-api) - [code](https://github.com/danielcaldas/el-conversor/blob/master/app/webpack.config.js)
 - Unit testing
 - Authentication and authorization Management
     * [Example using Sagas](https://github.com/Th3Wall/Fakeflix/blob/main/src/redux/auth/auth.sagas.js)
@@ -188,7 +188,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
     - Will my app be Frontend heavy? (or backend heavy)
     - Do I have resources for this skill?
     - Is your application Canvas (or SVG) heavy? (Figma, Draw.io) - [example](https://github.com/rrag/react-stockcharts-examples2)
-    - Is your application webRTC heavy? (Video streaming) -[example](https://github.com/OpenVidu/openvidu-call-react)
+    - Is your application webRTC heavy? (Video streaming) - [example](https://github.com/OpenVidu/openvidu-call-react)
 
 <br>
 
@@ -235,7 +235,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Use of alt tags
 - 301 Redirects (bad for SEO)
 - Robots.txt - [Example](https://github.com/peterpeterparker/tietracker/blob/main/public/robots.txt)
-- Open graph protocol (https://ogp.me/) for social graph - [Example](https://github.com/gabroun/malikgabroun/blob/master/src/components/Seo.js)
+- [Open graph protocol](https://ogp.me/) for social graph - [Example](https://github.com/gabroun/malikgabroun/blob/master/src/components/Seo.js)
 
 <br>
 
@@ -245,7 +245,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
    * Microservice example - [live](https://kachkaev.ru/) - [code](https://gitlab.com/kachkaev/website-frontend/)
 - [Micro Frontend (independent dev & deployment for scalability)](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
     * Topcoder Platform Microfront Earn App - [code](https://github.com/topcoder-platform/micro-frontends-earn-app/tree/responsive)
-    *Topcode Profile micro app - [code](https://github.com/topcoder-platform/micro-frontends-profile-app)
+    * Topcode Profile micro app - [code](https://github.com/topcoder-platform/micro-frontends-profile-app)
 - Static components vs Dynamic components 
 - IFrame/Shell approach 
    * [AppShell approach](https://github.com/GoogleChromeLabs/sw-precache/tree/master/app-shell-demo)
@@ -274,7 +274,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 <br>
 
 **Handling APIs**
-- Polling (Short and Long)[library](https://www.npmjs.com/package/react-polling)
+- Polling (Short and Long) [library](https://www.npmjs.com/package/react-polling)
 - Web Sockets (Real-time) (ex: chat, shared editors)
     * Displaying live orderbook using websocket - [code](https://github.com/fibo/order-book)
     * Tic-tac-toe game with socket.io - [code](https://github.com/JL978/multiplayer-react-tic-tac-toe)
@@ -512,11 +512,11 @@ The philosophy behind this endeavour is to document as much as possible a practi
 * [Create React App - react redux redux-saga ant-design tailwind-css boilerplate](https://github.com/dospolov-archive/react-redux-saga-antd-tailwind-boilerplate)
 
 ### Setting up Development Environment
-    * [Git and SSH Keys](https://docs.gitlab.com/ee/ssh/index.html#generating-a-new-ssh-key-pair)
-    * [Code to deploy an EC2 instance for development purposes.](https://github.com/BoraxTheClean/DevelopmentMachine)
-    * [HTTPS on local dev env](https://www.freecodecamp.org/news/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec/)
-    * [Using Prettier and husky to make your commits safe](https://medium.com/@bartwijnants/using-prettier-and-husky-to-make-your-commits-save-2960f55cd351)
-    * [git cheatsheet](https://gist.github.com/Kartones/9353641)
+* [Git and SSH Keys](https://docs.gitlab.com/ee/ssh/index.html#generating-a-new-ssh-key-pair)
+* [Code to deploy an EC2 instance for development purposes.](https://github.com/BoraxTheClean/DevelopmentMachine)
+* [HTTPS on local dev env](https://www.freecodecamp.org/news/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec/)
+* [Using Prettier and husky to make your commits safe](https://medium.com/@bartwijnants/using-prettier-and-husky-to-make-your-commits-save-2960f55cd351)
+* [git cheatsheet](https://gist.github.com/Kartones/9353641)
 
 ### License
 
