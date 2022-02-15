@@ -88,7 +88,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - API Design
    * Example pattern- [code](https://github.com/oldboyxx/jira_clone/blob/master/client/src/shared/utils/api.js)
 - Instrumentation
-- Design system
+- [Design system](https://github.com/jbranchaud/awesome-react-design-systems)
 - Routing management
 - [CSS optimizations](https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS) - [Code-splitting](https://lihautan.com/css-code-splitting/)
 - [Lazy loading of modules](https://web.dev/fast/#lazy-load-images-and-video)
