@@ -10,7 +10,7 @@ A curation of code examples and in depth technical implementation approaches to 
 ---
 ### Philosophy
 
-The philosophy behind this endeavour is to document as much as possible a practical guide as possible someone looking to level-up fast/ implement things. 
+The philosophy behind this endeavour is to document as much as possible a practical guide for someone looking to level-up fast/ implement things. 
 
 > “Talk is cheap. Show me the code.”
 > — Linus Torvalds
@@ -96,8 +96,11 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [Image optimizations](https://web.dev/fast/#optimize-your-images)
 - [Pagination](https://dev.to/potouridisio/the-only-pagination-you-ll-ever-need-1-2-3-4-5-4il5), [Debouncing, Throttling](https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf)
 - [Performance](https://developer.mozilla.org/en-US/docs/Web/Performance): FCP, LCP, TTI, CLS
-- [Versioning](https://github.com/pirelenito/git-revision-webpack-plugin#plugin-api)
+- [Versioning] -[example](https://github.com/pirelenito/git-revision-webpack-plugin#plugin-api) - [code](https://github.com/danielcaldas/el-conversor/blob/master/app/webpack.config.js)
 - Unit testing
+- Authentication and authorization Management
+    * [Example using Sagas](https://github.com/Th3Wall/Fakeflix/blob/main/src/redux/auth/auth.sagas.js)
+
 
 ---
 
@@ -242,6 +245,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
    * Microservice example - [live](https://kachkaev.ru/) - [code](https://gitlab.com/kachkaev/website-frontend/)
 - [Micro Frontend (independent dev & deployment for scalability)](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
     * Topcoder Platform Microfront Earn App - [code](https://github.com/topcoder-platform/micro-frontends-earn-app/tree/responsive)
+    *Topcode Profile micro app - [code](https://github.com/topcoder-platform/micro-frontends-profile-app)
 - Static components vs Dynamic components 
 - IFrame/Shell approach 
    * [AppShell approach](https://github.com/GoogleChromeLabs/sw-precache/tree/master/app-shell-demo)
@@ -259,18 +263,21 @@ The philosophy behind this endeavour is to document as much as possible a practi
        * [React/Redux: pitfalls and best practices](https://tech.bedrockstreaming.com/react-redux-pitfalls-and-best-pratices/)
     * Redux-saga
         * Example Codebase -[react-crwn-cothing-ecom](https://github.com/Th3Wall/react-crwn-cothing-ecom)
+        * Example Codebase -[fakeflix](https://github.com/Th3Wall/Fakeflix/blob/main/src/redux/rootSaga.js)
     * RxJS
         * [Example recipes](https://www.learnrxjs.io/learn-rxjs/recipes)
         * [Basic example using redux-observable](https://github.com/simonhorlick/react-redux-observable-example)
         * [Better example](https://github.com/mitsuruog/react-redux-observable-typescript-sample)
+        * [Sample application with a bit of outdated code](https://github.com/RxJSInAction/banking-in-action)
     * Redux Thunk
 
 <br>
 
 **Handling APIs**
-- Polling (Short and Long)
+- Polling (Short and Long)[library](https://www.npmjs.com/package/react-polling)
 - Web Sockets (Real-time) (ex: chat, shared editors)
     * Displaying live orderbook using websocket - [code](https://github.com/fibo/order-book)
+    * Tic-tac-toe game with socket.io - [code](https://github.com/JL978/multiplayer-react-tic-tac-toe)
 - Batch requests
 - GraphQL
 - Caching GET APIs (Middleware concepts to cache response) - [guide](https://roadmap.sh/guides/http-caching)
@@ -325,6 +332,8 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Using Web workers
    * [React and Web Workers](https://levelup.gitconnected.com/react-and-web-workers-c9b60b4b6ae8)
    * Example - [code](https://github.com/peterpeterparker/tietracker/tree/main/public/workers)
+   * Another example - [code](https://github.com/RxJSInAction/banking-in-action/tree/master/app/scripts/workers)
+   * [Using worker with Webpack 4](https://github.com/webpack-contrib/worker-loader) / [Using worker with Webpack 5](https://mmazzarolo.com/blog/2021-09-03-loading-web-workers-using-webpack-5/)
 - [Web Vitals (FP, LCP, CLS, etc)](https://10up.github.io/Engineering-Best-Practices/performance/#core-web-vitals)
 - Lighthouse / PageSpeed Insights - [website having 100 score](https://github.com/philipwalton/blog)
 - Fast Loading (Initial load should be fast)
@@ -360,8 +369,8 @@ The philosophy behind this endeavour is to document as much as possible a practi
 <br>
 
 **Internationalization (i18n) / Localization (i10n)**
-- Localization
-- Numeric, date and time formats
+- Localization - example [live](https://kachkaev.ru/) - [code](https://gitlab.com/kachkaev/website-frontend/-/blob/master/src/i18n.ts)
+- Numeric, date and time formats - [date-fns library](https://date-fns.org/)
 - Singular &  Plurals
 - Use of currency
 - Keyboard usage - [example](https://codesandbox.io/s/8x6kzj7zmj?file=/components/List.js)
@@ -375,7 +384,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - Alt attributes
 - Aria-labels - [example code](https://github.com/JasonTarka/a11y-examples)
 - Multi-device support, slow network speed
-   * [Adaptive Loading](https://addyosmani.com/blog/adaptive-loading/) - [Code](https://github.com/GoogleChromeLabs/adaptive-loading)
+   * [Adaptive Loading](https://addyosmani.com/blog/adaptive-loading/) - [live](https://adaptive-loading.web.app/react-hooks) - [Code](https://github.com/GoogleChromeLabs/adaptive-loading)
 - Color contrast, semantics tags - [See this](https://10up.github.io/Engineering-Best-Practices/tools/#a11y-testing)
 
 <br>
@@ -470,14 +479,25 @@ The philosophy behind this endeavour is to document as much as possible a practi
 
 ### Codebases + Guides Worth Mentioning Here
 * Artsy.net - (https://github.com/artsy/force/)
+    * What to look for : completed production app, integrations/tooling 
 * thenewboston - (https://github.com/thenewboston-developers/Website)
+    * what to look for : complete production app, significant unit tests
 * fakeflix - (https://github.com/Th3Wall/Fakeflix)
+    * what to look for : significant codebase that has more complete implementation than usual blogposts/articles
 * CRWN Clothing - (https://github.com/Th3Wall/react-crwn-cothing-ecom)
 * algorithm-visualizer - (https://github.com/algorithm-visualizer/algorithm-visualizer)
+    * What to look for - abstraction for components
 * spotify-clone-client - (https://github.com/JL978/spotify-clone-client)
+    * What to look for : simple app with clean modern Hooks implementation
 * The Front-End Checklist - (https://github.com/thedaviddias/Front-End-Checklist)
-* Engineering Best Practices - Many sections serve as a good reference - (https://10up.github.io/Engineering-Best-Practices/)
+    * What to look for : missing points from this document spoken at more detailed length
+* Engineering Best Practices - (https://10up.github.io/Engineering-Best-Practices/)
+    * What to look for - many sections here serve as a good reference on their own
 * Zero to production web apps - [code](https://pgjones.dev/tozo/frontend/aims/)
+    * What to look for - independent end to end simple setup that can be used as a base template
+* For adding Typescript to web app
+    * React Redux Typescript Guide - (https://github.com/piotrwitek/react-redux-typescript-guide)
+    * Typescript cheatsheet - (https://github.com/typescript-cheatsheets/react)
 
 ### Boilerplate Code
 * [Setup with Node.js web application server acting as a Backend for Frontend](https://github.com/react-boilerplate/react-boilerplate)
@@ -490,6 +510,13 @@ The philosophy behind this endeavour is to document as much as possible a practi
 * [New York Times kyt based starterkit](https://github.com/nytimes/kyt)
 * [Create React App - Simple Redux Typescript Boilerplate](https://github.com/hammondan/react-redux-typesript-boilerplate)
 * [Create React App - react redux redux-saga ant-design tailwind-css boilerplate](https://github.com/dospolov-archive/react-redux-saga-antd-tailwind-boilerplate)
+
+### Setting up Development Environment
+    * [Git and SSH Keys](https://docs.gitlab.com/ee/ssh/index.html#generating-a-new-ssh-key-pair)
+    * [Code to deploy an EC2 instance for development purposes.](https://github.com/BoraxTheClean/DevelopmentMachine)
+    * [HTTPS on local dev env](https://www.freecodecamp.org/news/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec/)
+    * [Using Prettier and husky to make your commits safe](https://medium.com/@bartwijnants/using-prettier-and-husky-to-make-your-commits-save-2960f55cd351)
+    * [git cheatsheet](https://gist.github.com/Kartones/9353641)
 
 ### License
 
