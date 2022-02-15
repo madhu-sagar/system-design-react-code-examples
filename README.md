@@ -32,7 +32,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [React Philosophies](https://github.com/mithi/react-philosophies)
 - [idiomatic.js](https://github.com/rwaldron/idiomatic.js)
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
-- [CSS Triggers](https://csstriggers.com/)
+- [CSS Triggers](https://csstriggers.com/) - [what forces layout/reflow](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)
 - [The Web Browser Internals](https://www.madhusagar.org/The-Web-Browser-Internals/)
 
 ---
