@@ -34,6 +34,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 - [CSS Triggers](https://csstriggers.com/) - [what forces layout/reflow](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)
 - [The Web Browser Internals](https://www.madhusagar.org/The-Web-Browser-Internals/)
+- [A (Mostly) Complete Guide to React Rendering Behavior](https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/)
 
 ---
 
@@ -82,14 +83,17 @@ The philosophy behind this endeavour is to document as much as possible a practi
    * [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)  
 - [Component Design](https://overreacted.io/writing-resilient-components/#writing-resilient-components)
 - Form development
+   * [Example using react-hook-form](https://react-hook-form.com/advanced-usage#SmartFormComponent)
 - Storage management
    * Using [localForage](https://github.com/localForage/localForage)
    * redux-persist - [code](https://github.com/Th3Wall/react-crwn-cothing-ecom) 
 - API Design
    * Example pattern- [code](https://github.com/oldboyxx/jira_clone/blob/master/client/src/shared/utils/api.js)
+   * Another example - [code](https://github.com/alan2207/bulletproof-react/blob/master/docs/api-layer.md)
 - Instrumentation
 - [Design system](https://github.com/jbranchaud/awesome-react-design-systems)
 - Routing management
+    * Example pattern - [code](https://github.com/alan2207/bulletproof-react/tree/master/src/routes)
 - [CSS optimizations](https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS) - [Code-splitting](https://lihautan.com/css-code-splitting/)
 - [Lazy loading of modules](https://web.dev/fast/#lazy-load-images-and-video)
 - [Accessibility](https://www.w3.org/WAI/tips/developing/)
@@ -495,6 +499,8 @@ The philosophy behind this endeavour is to document as much as possible a practi
     * What to look for - many sections here serve as a good reference on their own
 * Zero to production web apps - [code](https://pgjones.dev/tozo/frontend/aims/)
     * What to look for - independent end to end simple setup that can be used as a base template
+* Bulletproof react -[code](https://github.com/alan2207/bulletproof-react)
+    * What to look for - readymade opinionated guide
 * For adding Typescript to web app
     * React Redux Typescript Guide - (https://github.com/piotrwitek/react-redux-typescript-guide)
     * Typescript cheatsheet - (https://github.com/typescript-cheatsheets/react)
