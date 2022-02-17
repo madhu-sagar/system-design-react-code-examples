@@ -34,6 +34,7 @@ The philosophy behind this endeavour is to document as much as possible a practi
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 - [CSS Triggers](https://csstriggers.com/) - [what forces layout/reflow](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)
 - [The Web Browser Internals](https://www.madhusagar.org/The-Web-Browser-Internals/)
+- [A (Mostly) Complete Guide to React Rendering Behavior](https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/)
 
 ---
 

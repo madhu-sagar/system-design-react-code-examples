@@ -4,6 +4,7 @@
     - Update link for form management
     - Update link in cobebase section
     - Update link for API layer
+    - New link in architecture section
 ## 2022-02-16
     - Updated more links for web workers 
     - Updated example code for RxJs
